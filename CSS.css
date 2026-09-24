@@ -1,0 +1,43 @@
+.textebleu{
+	color: #00CCFF;
+}
+div#bandeau {
+	width:600px;
+	height:50px;
+	background-color:#00CCFF;
+	}
+div#menu {
+	float:left;
+	width:150px;
+	height:400px;
+	background-color:#FF6699;
+	}
+div#menuhaut {
+    float:left;
+	width:150px;
+	height:200px;
+	background-color:#497035;
+	}
+div#menubas {
+    float:left;
+	width:150px;
+	height:200px;
+	background-color:#ff6699;
+	}
+
+div#contenu {
+	width:600px;
+	height:400px;
+	background-color:#ffcc02;
+	}
+div#blocnews {
+    float:right;
+    width:150px ; 
+    height:150px;
+    background-color: red;
+}
+div#piedpage {
+	width:600px;
+	height:100px;
+	background-color:#34ff99;
+	}
