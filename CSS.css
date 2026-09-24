@@ -1,6 +1,9 @@
 .textebleu{
 	color: #00CCFF;
 }
+.texterouge{
+	color: red;
+}
 div#bandeau {
 	width:600px;
 	height:50px;
@@ -31,7 +34,9 @@ div#contenu {
 	background-color:#ffcc02;
 	}
 div#blocnews {
-    float:right;
+	position: absolute;
+	right: 47px;
+	top: 58px;
     width:150px ; 
     height:150px;
     background-color: red;
@@ -41,3 +46,18 @@ div#piedpage {
 	height:100px;
 	background-color:#34ff99;
 	}
+table {
+  border-collapse: collapse;
+  background-color: white;
+}
+
+thead,
+
+th,
+td {
+  border: 1px solid;
+}
+
+tbody {
+  background-color: white ;
+}
