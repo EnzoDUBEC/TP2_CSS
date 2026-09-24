@@ -29,14 +29,16 @@ div#menubas {
 	}
 
 div#contenu {
-	width:600px;
-	height:400px;
+	position: relative;
+	margin-left: 150px;
+	width:450px;
+	height: 400px;
 	background-color:#ffcc02;
 	}
 div#blocnews {
 	position: absolute;
-	right: 47px;
-	top: 58px;
+	top: 0px;
+	right: 0px;
     width:150px ; 
     height:150px;
     background-color: red;
@@ -50,10 +52,25 @@ div#piedpage {
 table {
   border-collapse: collapse;
   background-color: white;
-  color: #4ca520;
+  
   border: 1px solid;
 }
 
 td {
+  border: 1px solid ;
+  color: rgb(17, 142, 44);
+}
+th {
   border: 1px solid;
+  color: rgb(3, 154, 255);
+}
+div#conteneur-tableaux {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.separateur {
+    color: red;
+    font-size: 20px;
 }
