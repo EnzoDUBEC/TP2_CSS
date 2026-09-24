@@ -46,18 +46,14 @@ div#piedpage {
 	height:100px;
 	background-color:#34ff99;
 	}
+
 table {
   border-collapse: collapse;
   background-color: white;
-}
-
-thead,
-
-th,
-td {
+  color: #4ca520;
   border: 1px solid;
 }
 
-tbody {
-  background-color: white ;
+td {
+  border: 1px solid;
 }
